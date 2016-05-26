@@ -1,0 +1,36 @@
+body {
+  background-color: #eee;
+}
+
+.nav-pills li a:hover {
+  background-color: #e6faff;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+.carousel-indicators li {
+	border-color: #222;
+}
+
+.carousel-control {
+  color: #222;
+}
+
+.card img {
+border: #222 .4em solid;
+padding: .1em;
+}
+
+.card-title {
+  text-align: center;
+}

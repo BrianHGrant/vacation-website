@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.css" type="text/css">
-    <link rel="stylesheet" href="/css/styles.css" type="text/css">
-    <title></title>
+    <title>Let's Go to Thailand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-
+    <div class="container">
+      <div class="page-header">
+        <h1>Let's Go to Thailand</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Getting There</a></li>
+            <li><a href="#">Where to Stay</a></li>
+            <li><a href="#">Things to Do</a></li>
+            <li><a href="#">Safety</a></li>
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <div class="carousel slide jumbotron" id="homepageCarousel">
+            <div class="container">
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#homepageCarousel" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="http://newmedia.thomson.co.uk/live/vol/0/921d4b57639916341dfa76e38310ff7bc13b11e2/1080x608/web/ASIAFAREASTTHAILANDTHAILANDDES_000423KHAOLAKRES_002378.jpg" alt="Beach in Thailand" />
+                </div>
+                <div class="item">
+                  <img src="img/stone-temple.jpg" alt="Stone Temple" />
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#homepageCarousel" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#homepageCarousel" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card" data-key="sameHeights">
+                <img class="img-responsive" src="img/boat-on-beach.jpg" alt="Boat on Pretty Beach" />
+                <div class="card-block">
+                  <h2 class="card-title">Private Coves</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, nisi non suscipit convallis, eros massa porttitor sapien, ac gravida enim nulla finibus nisi. Sed auctor, enim in eleifend congue
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card" data-key="sameHeights">
+                <img class="img-responsive" src="img/gold-temple.jpg" alt="Golden Temple" />
+                <div class="card-block">
+                  <h2 class="card-title">Ancient Temples</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, nisi non suscipit convallis, eros massa porttitor sapien, ac gravida enim nulla finibus nisi. Sed auctor, enim in eleifend congue
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card" data-key="sameHeights">
+                <img class="img-responsive" src="img/Bangkok_skytrain_sunset.jpg" alt="Bangkok at Night" />
+                <div class="card-block">
+                  <h2 class="card-title">Urban Living</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, nisi non suscipit convallis, eros massa porttitor sapien, ac gravida enim nulla finibus nisi. Sed auctor, enim in eleifend congue
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card" data-key="sameHeights">
+                <img class="img-responsive" src="img/temple-at-night.jpg" alt="Temple with Lights" />
+                <div class="card-block">
+                  <h2 class="card-title">Beautiful Nights</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, nisi non suscipit convallis, eros massa porttitor sapien, ac gravida enim nulla finibus nisi. Sed auctor, enim in eleifend congue
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sameHeights.js"></script>
   </body>
 </html>
