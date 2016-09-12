@@ -1,5 +1,5 @@
 # Vacation Website
-A basic html/css website showing a vacation site
+A basic html website using Bootstrap as a styling framework
 ## Installation
 Clone repo
 ## Usage
